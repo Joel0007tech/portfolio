@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: rgba(208, 247, 130, 0.671);
+}
+.footer-service {
+  text-align: center;
+}
+.footer-service a {
+  color: brown;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+.first-heading {
+  color: brown;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 10px;
+}
+.second-heading {
+  color: brown;
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 900;
+  text-decoration: underline;
+}
+.p-services {
+  color: brown;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 900;
+}
+.third-heading {
+  color: brown;
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 900;
+  text-decoration: underline;
+}
+.Implementation {
+  background-color: rgba(247, 139, 77, 0.671);
+  display: flex;
+  width: 800px;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin-left: 330px;
+  margin-top: 10px;
+  column-gap: 4px;
+  column-gap: 10px;
+}
+#html-service {
+  background-color: rgba(208, 247, 130, 0.671);
+  width: 50%;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+#css-service {
+  background-color: rgba(208, 247, 130, 0.671);
+  width: 50%;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+#javascript-service {
+  background-color: rgba(208, 247, 130, 0.671);
+  width: 50%;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+.h3-implentation {
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+  color: brown;
+  margin-top: 10px;
+  margin-top: 20px;
+}
+.p-implementation1 {
+  font-family: cursive;
+  color: brown;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 200px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-weight: 900;
+  height: 80px;
+  text-align: center;
+  line-height: 30px;
+}
+.p-implementation2 {
+  font-family: cursive;
+  color: brown;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 200px;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 500;
+  height: 100px;
+  font-weight: 900;
+}
+.p-implementation3 {
+  font-family: cursive;
+  color: brown;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 200px;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 900;
+  height: 120px;
+}
+.link-html {
+  font-family: cursive;
+  margin-bottom: 30px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.link-html a {
+  color: brown;
+  padding: 3px;
+}
+.link-html a:hover {
+  color: rgba(208, 247, 130, 0.671);
+  background-color: brown;
+  border-bottom: 5px solid brown;
+  border-radius: 5px;
+}
+.link-css {
+  font-family: cursive;
+  color: brown;
+  margin-bottom: 30px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.link-css a {
+  color: brown;
+  padding: 3px;
+}
+.link-css a:hover {
+  color: rgba(208, 247, 130, 0.671);
+  background-color: brown;
+  border-bottom: 5px solid brown;
+  border-radius: 5px;
+}
+.link-js {
+  font-family: cursive;
+  color: brown;
+  margin-bottom: 30px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.link-js a {
+  color: brown;
+  padding: 3px;
+}
+.link-js a:hover {
+  color: rgba(208, 247, 130, 0.671);
+  background-color: brown;
+  border-bottom: 5px solid brown;
+  border-radius: 5px;
+}
+.flex-test{
+  padding:18px;
+  background-color: brown;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#flex-heading{
+  color: rgba(208, 247, 130, 0.671);
+  font-family: cursive;
+  font-weight: 900;
+  font-size:24px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin-bottom:25px;
+  text-align: center;
+}
+.image-biography,.image-brand,.image-charity,.image-cooperate{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(208, 247, 130, 0.671);
+  margin-bottom:8px;
+  border-radius:10px;
+}
+.flex-test h3{
+  margin-left:10px;
+ font-family: cursive;
+ font-size: larger;
+ color: brown;
+ font-weight: 700;
+ text-transform: uppercase;
+ margin-top: 10px;
+}
+.flex-test p{
+  margin-left:10px;
+  font-family: cursive;
+  color: brown;
+}
+.image-blog,.image-brochure,.image-coaching{
+background-color: rgba(247, 139, 77, 0.671);
+border-radius:10px;
+border: 5px;
+margin-bottom: 8px;
+display: flex;
+flex-direction: row;
+}
+
+
