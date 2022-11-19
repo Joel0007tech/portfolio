@@ -50,3 +50,11 @@ border-radius:10px;
   font-family: cursive;
   text-transform: capitalize;
 }
+.footer-about p{
+  font-family: cursive;
+  color:rgba(222, 247, 130, 0.884);
+  margin-top: 1%;
+  font-weight: 900;
+  font-size: large;
+  text-transform: capitalize;
+}

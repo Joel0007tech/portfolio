@@ -5,6 +5,7 @@
 }
 body {
   background-color: rgba(208, 247, 130, 0.671);
+  margin: 0 auto;
 }
 .footer-service {
   text-align: center;
@@ -13,6 +14,14 @@ body {
   color: brown;
   font-family: cursive;
   text-transform: capitalize;
+}
+.footer-service p{
+  font-size: large;
+  font-weight: 900;
+  font-family:cursive;
+  text-transform: capitalize;
+  color:brown;
+  margin-top: 1%;
 }
 .first-heading {
   color: brown;
@@ -193,24 +202,19 @@ body {
 }
 .image-biography,.image-brand,.image-charity,.image-cooperate{
   display: flex;
-  flex-direction: row;
+  flex-direction:row-reverse;
   background-color: rgba(208, 247, 130, 0.671);
   margin-bottom:8px;
   border-radius:10px;
+  margin-left:5px;
 }
 .flex-test h3{
   margin-left:10px;
  font-family: cursive;
- font-size: larger;
+ font-size:20px;
  color: brown;
  font-weight: 700;
- text-transform: uppercase;
- margin-top: 10px;
-}
-.flex-test p{
-  margin-left:10px;
-  font-family: cursive;
-  color: brown;
+ margin-top:5px;
 }
 .image-blog,.image-brochure,.image-coaching{
 background-color: rgba(247, 139, 77, 0.671);
@@ -220,5 +224,6 @@ margin-bottom: 8px;
 display: flex;
 flex-direction: row;
 }
+
 
 
